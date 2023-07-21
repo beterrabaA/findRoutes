@@ -1,3 +1,7 @@
+const exemplo1 = [["GRU", "SSA"], ["GIG", "POA"], ["SSA", "GIG"], ["POA", "FOR"]]
+
+const exemplo2 = [["B", "C"], ["C", "D"], ["A", "B"]];
+
 function findRoutes(array) {
     // empty mapped list
     const routes = {}
@@ -26,3 +30,6 @@ function findRoutes(array) {
     // stringifing the return
     return startPath.join(', ')
 }
+
+console.log(findRoutes(exemplo1))  // "GRU, SSA, GIG, POA, FOR"
+console.log(findRoutes(exemplo2)) // "A, B, C, D"

@@ -38,4 +38,4 @@ function findRoutes(array) {
 console.log(findRoutes(exemplo1))  // "GRU, SSA, GIG, POA, FOR"
 console.log(findRoutes(exemplo2)) // "A, B, C, D"
 console.log(findRoutes(exemple3)) // "São Paulo, Rio de Janeiro, Salvador, Fortaleza, Manaus"
-console.log(findRoutes(exemplo4)) // "BRA, MEX, JPN, PHL, USA"
+console.log(findRoutes(exemplo4)) // "BRA, MEX, JPN, PHL, USA, AUS, PRY"
